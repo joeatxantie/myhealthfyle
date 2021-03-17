@@ -14,9 +14,9 @@ export class DashboardComponent implements OnInit {
   lineChartTemperatureData: ChartDataSets[] = [{ data: [75, 77, 78, 75, 77, 75, 78, 75, 74], label: 'Temperature' },];
 
 
-  lineChartBloodPressureLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '02/01/21', '03/08/21', '03/15/21'];
-  lineChartHeartRateLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '02/01/21', '03/08/21', '03/15/21'];
-  lineChartTemperatureLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '02/01/21', '03/08/21', '03/15/21'];
+  lineChartBloodPressureLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '03/08/21', '03/15/21'];
+  lineChartHeartRateLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '03/08/21', '03/15/21'];
+  lineChartTemperatureLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '03/08/21', '03/15/21'];
 
   lineChartOptions = {
     responsive: true,
