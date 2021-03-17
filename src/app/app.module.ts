@@ -17,6 +17,8 @@ import { DashboardFiltersComponent } from './shared/dashboard-filters/dashboard-
 import { CalendarComponent } from './shared/calendar/calendar.component';
 import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { PostdicomComponent } from './postdicom/postdicom.component';
+import { MyfilesComponent } from './myfiles/myfiles.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     DashboardFiltersComponent,
     CalendarComponent,
     DashboardComponent,
-    FooterComponent
+    FooterComponent,
+    PostdicomComponent,
+    MyfilesComponent
   ],
   imports: [
     BrowserModule,

@@ -3,12 +3,13 @@
     <div class="bg-dark p-4">
       <h4 class="text-white">Menu</h4>
       <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Files</a> <br/>
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Notes</a> <br/>
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Images</a> <br/>
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Sharing</a> <br/>
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Update Personal Info</a> <br/>
-      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Pedigree Tree</a> <br/>
+      <a [routerLink]="[ '/', 'dashboard' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">Dashboard</a> <br/>
+      <a [routerLink]="[ '/', 'myfiles' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">My Files</a> <br/>
+      <a [routerLink]="[ '/', 'myimages' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">My Images</a> <br/>
+      <a [routerLink]="[ '/', 'mynotes' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">My Notes</a> <br/>
+      <a [routerLink]="[ '/', 'sharing' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">Sharing</a> <br/>
+      <a [routerLink]="[ '/', 'personalinfo' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">Update Personal Info</a> <br/>
+      <a [routerLink]="[ '/', 'pedigree' ]" routerLinkActive="active" data-toggle="collapse" data-target="#navbarToggleExternalContent">Pedigree Tree</a> <br/>
     </div>
   </div>
   
