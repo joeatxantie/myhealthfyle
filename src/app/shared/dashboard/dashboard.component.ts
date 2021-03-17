@@ -10,8 +10,8 @@ import { Color, Label } from 'ng2-charts';
 export class DashboardComponent implements OnInit {
 
   lineChartBloodPressureData: ChartDataSets[] = [{ data: [75, 77, 78, 75, 77, 75, 78, 75, 74], label: 'Blood Pressure' },];
-  lineChartHeartRateData: ChartDataSets[] = [{ data: [75, 77, 78, 75, 77, 75, 78, 75, 74], label: 'Heart Rate' },];
-  lineChartTemperatureData: ChartDataSets[] = [{ data: [75, 77, 78, 75, 77, 75, 78, 75, 74], label: 'Temperature' },];
+  lineChartHeartRateData: ChartDataSets[] = [{ data: [91, 90, 91, 92, 150, 80, 85, 86, 98], label: 'Heart Rate' },];
+  lineChartTemperatureData: ChartDataSets[] = [{ data: [96.6, 98.6, 98.6, 98.6, 98.6, 102.3, 101.0, 99.9, 98.8], label: 'Temperature' },];
 
 
   lineChartBloodPressureLabels: Label[] = ['02/01/21', '02/08/21', '02/15/21', '02/22/21', '03/01/21', '03/08/21', '03/15/21'];
@@ -25,7 +25,7 @@ export class DashboardComponent implements OnInit {
 
   lineChartColors: Color[] = [
     {
-      borderColor: 'orange',
+      borderColor: '#6F4E7C',
       backgroundColor: 'rgba(255,255,255,0.28)',
     },
   ];
