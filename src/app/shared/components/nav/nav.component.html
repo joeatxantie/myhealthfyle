@@ -1,14 +1,32 @@
-<div class="pos-f-t">
+<!-- <div class="pos-f-t"> -->
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
+      <h4 class="text-white">Menu</h4>
+      <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Files</a> <br/>
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Notes</a> <br/>
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">My Images</a> <br/>
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Sharing</a> <br/>
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Update Personal Info</a> <br/>
+      <a [routerLink]="[ '/', 'contact' ]" routerLinkActive="active">Pedigree Tree</a> <br/>
     </div>
   </div>
+  
   <nav class="navbar navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div style="color:white; text-align: center;">MyHealthFyle</div>
+    <div style="color:white; text-align: center; font-size: 1.5em; font-weight: 600;">My Health Fyle</div>
+    <img src="/assets/images/kagen_logo.png" style="width: 4%;">
   </nav>
-</div>
+  <!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col-2">
+        <img src="/assets/images/kagen_logo.png" style="width: 100%;">
+      </div>
+      <div class="col-8"><div style="color:white; text-align: center;">MyHealthFyle</div></div>
+    </div>
+    <div class="col-2">
+    </div>
+  </div> -->
+<!-- </div> -->
