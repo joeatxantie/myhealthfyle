@@ -69,6 +69,10 @@ right connector from last child*/
 	-moz-border-radius: 5px 0 0 0;
 }
 
+.issue {
+    background-color: rgb(252, 180, 180);
+}
+
 /*Time to add downward connectors from parents*/
 .tree ul ul::before{
 	content: '';
