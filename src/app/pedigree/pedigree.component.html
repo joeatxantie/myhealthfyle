@@ -1,46 +1,40 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-2"></div>
-        <div class="col-8 text-center">
+        <div class="col-8 text-center title">
             Pedigree
         </div>
         <div class="col-2"></div>
     </div>
     <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
+        <div class="col-1"></div>
+        <div class="col-5 text-center subtitle">
+            PATERNAL TREE
             <div class="tree">
                 <ul>
                     <li>
-                        <a href=""  data-toggle="modal" data-target="#pedigreeModal">Parent</a>
+                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Grandfather</a>
+                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Grandmother</a>
                         <ul>
                             <li>
-                                <a href=""  data-toggle="modal" data-target="#pedigreeModal">Child</a>
+                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Father</a>
                                 <ul>
+                                    <li><a href="" data-toggle="modal" data-target="#pedigreeModal">Me!</a></li>
                                     <li>
-                                        <a href=""  data-toggle="modal" data-target="#pedigreeModal">Grand Child</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href=""  data-toggle="modal" data-target="#pedigreeModal">Child</a>
-                                <ul>
-                                    <li><a href=""  data-toggle="modal" data-target="#pedigreeModal">Grand Child</a></li>
-                                    <li>
-                                        <a href=""  data-toggle="modal" data-target="#pedigreeModal">Grand Child</a>
+                                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Brother</a>
                                         <ul>
                                             <li>
-                                                <a href=""  data-toggle="modal" data-target="#pedigreeModal">Great Grand Child</a>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Nephew</a>
                                             </li>
                                             <li>
-                                                <a href=""  data-toggle="modal" data-target="#pedigreeModal">Great Grand Child</a>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Nephew</a>
                                             </li>
                                             <li>
-                                                <a href=""  data-toggle="modal" data-target="#pedigreeModal">Great Grand Child</a>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Niece</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href=""  data-toggle="modal" data-target="#pedigreeModal">Grand Child</a></li>
+                                    <li><a href="" data-toggle="modal" data-target="#pedigreeModal">Sister</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -48,7 +42,41 @@
                 </ul>
             </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-5 text-center subtitle">
+            MATERNAL TREE
+            <div class="tree">
+                <ul>
+                    <li>
+                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Grandfather</a>
+                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Grandmother</a>
+                        <ul>
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Mother</a>
+                                <ul>
+                                    <li><a href="" data-toggle="modal" data-target="#pedigreeModal">Me!</a></li>
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#pedigreeModal">Brother</a>
+                                        <ul>
+                                            <li>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Nephew</a>
+                                            </li>
+                                            <li>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Nephew</a>
+                                            </li>
+                                            <li>
+                                                <a href="" data-toggle="modal" data-target="#pedigreeModal">Niece</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="" data-toggle="modal" data-target="#pedigreeModal">Sister</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-1"></div>
     </div>
 </div>
 
@@ -58,7 +86,7 @@
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="pedigreeModalLabel">Edit Notifications</h5>
+          <h5 class="modal-title" id="pedigreeModalLabel">Edit Pedigree</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -67,100 +95,161 @@
             <table class="table table-hover">
                 <thead>
                   <tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">Event</th>
-                    <th scope="col">Email(s)</th>
-                    <th scope="col">Reminder</th>
+                    <th scope="col">Paternal/Maternal</th>
+                    <th scope="col">Relationship</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Health Issues</th>
                     <th scope="col">Modified By</th>
                     <th scope="col">Edit</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>03/21/21</td>
-                    <td>COVID19 Vaccine</td>
-                    <td>joe@xantie.com;</td>
                     <td>
                         <div class="dropdown">
                             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                1 Day Before
+                                Paternal
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">1 Day Before</a>
-                                <a class="dropdown-item" href="#">12 Hours Before</a>
-                                <a class="dropdown-item" href="#">6 Hours Before</a>
-                                <a class="dropdown-item" href="#">3 Hours Before</a>
-                                <a class="dropdown-item" href="#">1 Hour Before</a>
-                                <a class="dropdown-item" href="#">30 Minutes Before</a>
+                                <a class="dropdown-item" href="#">Paternal</a>
+                                <a class="dropdown-item" href="#">Maternal</a>
                             </div>
                         </div>
                     </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Father
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Father</a>
+                                <a class="dropdown-item" href="#">Mother</a>
+                                <a class="dropdown-item" href="#">Grandfather</a>
+                                <a class="dropdown-item" href="#">Grandmother</a>
+                                <a class="dropdown-item" href="#">Aunt</a>
+                                <a class="dropdown-item" href="#">Uncle</a>
+                                <a class="dropdown-item" href="#">Brother</a>
+                                <a class="dropdown-item" href="#">Sister</a>
+                                <a class="dropdown-item" href="#">Daughter</a>
+                                <a class="dropdown-item" href="#">Son</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>Daddy!</td>
+                    <td>dad@gmail.com</td>
+                    <td>Healthy as a whistle</td>
                     <td>joe@xantie.com</td>
                     <td><a href=""  data-toggle="modal" data-target="#pedigreeModal">Edit</a></td>
                   </tr>
                   <tr>
-                    <td>04/11/21</td>
-                    <td>COVID19 Vaccine</td>
-                    <td>joe@xantie.com;</td>
                     <td>
                         <div class="dropdown">
                             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                1 Day Before
+                                Maternal
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">1 Day Before</a>
-                                <a class="dropdown-item" href="#">12 Hours Before</a>
-                                <a class="dropdown-item" href="#">6 Hours Before</a>
-                                <a class="dropdown-item" href="#">3 Hours Before</a>
-                                <a class="dropdown-item" href="#">1 Hour Before</a>
-                                <a class="dropdown-item" href="#">30 Minutes Before</a>
+                                <a class="dropdown-item" href="#">Paternal</a>
+                                <a class="dropdown-item" href="#">Maternal</a>
                             </div>
                         </div>
                     </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mother
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Father</a>
+                                <a class="dropdown-item" href="#">Mother</a>
+                                <a class="dropdown-item" href="#">Grandfather</a>
+                                <a class="dropdown-item" href="#">Grandmother</a>
+                                <a class="dropdown-item" href="#">Aunt</a>
+                                <a class="dropdown-item" href="#">Uncle</a>
+                                <a class="dropdown-item" href="#">Brother</a>
+                                <a class="dropdown-item" href="#">Sister</a>
+                                <a class="dropdown-item" href="#">Daughter</a>
+                                <a class="dropdown-item" href="#">Son</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>Mommy!</td>
+                    <td>mom@gmail.com</td>
+                    <td>Breast Cancer</td>
                     <td>joe@xantie.com</td>
                     <td><a href=""  data-toggle="modal" data-target="#pedigreeModal">Edit</a></td>
                   </tr>
                   <tr>
-                    <td>04/15/21</td>
-                    <td>Blood Draw</td>
-                    <td>joe@xantie.com;</td>
                     <td>
                         <div class="dropdown">
                             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                1 Day Before
+                                Paternal
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">1 Day Before</a>
-                                <a class="dropdown-item" href="#">12 Hours Before</a>
-                                <a class="dropdown-item" href="#">6 Hours Before</a>
-                                <a class="dropdown-item" href="#">3 Hours Before</a>
-                                <a class="dropdown-item" href="#">1 Hour Before</a>
-                                <a class="dropdown-item" href="#">30 Minutes Before</a>
+                                <a class="dropdown-item" href="#">Paternal</a>
+                                <a class="dropdown-item" href="#">Maternal</a>
                             </div>
                         </div>
                     </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Grandfather
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Father</a>
+                                <a class="dropdown-item" href="#">Mother</a>
+                                <a class="dropdown-item" href="#">Grandfather</a>
+                                <a class="dropdown-item" href="#">Grandmother</a>
+                                <a class="dropdown-item" href="#">Aunt</a>
+                                <a class="dropdown-item" href="#">Uncle</a>
+                                <a class="dropdown-item" href="#">Brother</a>
+                                <a class="dropdown-item" href="#">Sister</a>
+                                <a class="dropdown-item" href="#">Daughter</a>
+                                <a class="dropdown-item" href="#">Son</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>Papa!</td>
+                    <td>papa@gmail.com</td>
+                    <td>Healthy as a whistle</td>
                     <td>joe@xantie.com</td>
                     <td><a href=""  data-toggle="modal" data-target="#pedigreeModal">Edit</a></td>
                   </tr>
                   <tr>
-                    <td>04/30/21</td>
-                    <td>Colonoscopy</td>
-                    <td>joe@xantie.com;mariesa.whitaker@gmail.com;</td>
                     <td>
                         <div class="dropdown">
                             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                1 Day Before
+                                Paternal
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">1 Day Before</a>
-                                <a class="dropdown-item" href="#">12 Hours Before</a>
-                                <a class="dropdown-item" href="#">6 Hours Before</a>
-                                <a class="dropdown-item" href="#">3 Hours Before</a>
-                                <a class="dropdown-item" href="#">1 Hour Before</a>
-                                <a class="dropdown-item" href="#">30 Minutes Before</a>
+                                <a class="dropdown-item" href="#">Paternal</a>
+                                <a class="dropdown-item" href="#">Maternal</a>
                             </div>
                         </div>
                     </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Grandmother
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Father</a>
+                                <a class="dropdown-item" href="#">Mother</a>
+                                <a class="dropdown-item" href="#">Grandfather</a>
+                                <a class="dropdown-item" href="#">Grandmother</a>
+                                <a class="dropdown-item" href="#">Aunt</a>
+                                <a class="dropdown-item" href="#">Uncle</a>
+                                <a class="dropdown-item" href="#">Brother</a>
+                                <a class="dropdown-item" href="#">Sister</a>
+                                <a class="dropdown-item" href="#">Daughter</a>
+                                <a class="dropdown-item" href="#">Son</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>MeeMaw!</td>
+                    <td>meemaw@gmail.com</td>
+                    <td>Healthy as a whistle</td>
                     <td>joe@xantie.com</td>
                     <td><a href=""  data-toggle="modal" data-target="#pedigreeModal">Edit</a></td>
                   </tr>

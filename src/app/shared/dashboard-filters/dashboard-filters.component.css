@@ -1,5 +1,12 @@
 
-
+.allCharts {
+  margin-left: .8%;
+  margin-top: .25%;
+}
+.allChartTypes {
+  margin-right: 1.5%;
+  margin-top: .25%;
+}
 .form-group.hidden {
     width: 0;
     margin: 0;
