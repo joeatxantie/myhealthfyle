@@ -19,6 +19,9 @@ import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PostdicomComponent } from './postdicom/postdicom.component';
 import { MyfilesComponent } from './myfiles/myfiles.component';
+import { SharingComponent } from './sharing/sharing.component';
+import { PersonalinfoComponent } from './personalinfo/personalinfo.component';
+import { PedigreeComponent } from './pedigree/pedigree.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { MyfilesComponent } from './myfiles/myfiles.component';
     DashboardComponent,
     FooterComponent,
     PostdicomComponent,
-    MyfilesComponent
+    MyfilesComponent,
+    SharingComponent,
+    PersonalinfoComponent,
+    PedigreeComponent
   ],
   imports: [
     BrowserModule,
